@@ -41,6 +41,8 @@ changes to a remote GitHub repository. Follow the steps below exactly to receive
 
    My Production Problems repository URL:
 
+   https://github.com/cherrera2/fwd-production-problems
+
 4. Next, push your commit to GitHub. `git push origin main` from your command line. That is all you
    need to do to submit future Production Problems. **There is no need to open a pull request.** So
    please do not do that.

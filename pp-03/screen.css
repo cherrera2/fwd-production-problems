@@ -34,9 +34,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 }
 
-#three
+#three,
 #two,
 #one {
+
+  height: 20vw;
+  width: 20vw;
 
 }
 

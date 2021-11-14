@@ -8,9 +8,18 @@ x = 5;
 
 function doMath() {
 
-  return function double(num) {  
-  let x = num * 2;
-  return x;
+  return function double(num) {
+
+    if (typeof num == 'number'){
+      let x = num * 2;
+      return x;
+    }
+
+    else {
+      let x = Number(num) * 2;
+      return x; //returns NaN if num is a non-numerical string value
+    }
+
   }
 
 }
